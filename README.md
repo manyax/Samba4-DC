@@ -1,8 +1,9 @@
 
 Samba4 sudoers and openssh-lpk schema.
 =======================================
-[my directory]Custom_schema
+* <a href="Custom_schema">Custom_schema/</a>
 
 Samba4 UNIX attributes management tool.
 =======================================
-[my directory]s4User.management
+* <a href="s4User.management">s4User.management/</a>
+
