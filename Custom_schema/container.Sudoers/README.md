@@ -16,6 +16,8 @@ ldbmodify -H /usr/local/samba/private/sam.ldb sudo.AdminUser.ldif
 
 FIX permission for SSSD to work with sudoers.
 ----------------------------------------------
+```
 set -H /usr/local/samba/private/sam.ldb --objectdn="CN=Sudoers,${DOMAINDN}" --sddl="(A;CI;RPLCRC;;;DC)"
+```
 Ref.
 http://ghanima.net/doku.php?id=blog:sssdandsamba4aclgotcha
