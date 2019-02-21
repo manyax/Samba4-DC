@@ -1,0 +1,6 @@
+dn: cn=defaults,cn=Sudoers,${DOMAINDN}
+objectClass: top
+objectClass: sudoRole
+cn: defaults
+description: Default sudoOptions go here
+sudoOption: env_keep+=SSH_AUTH_SOCK

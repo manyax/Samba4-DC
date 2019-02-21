@@ -1,0 +1,4 @@
+dn: CN=Sudoers,${DOMAINDN}
+ObjectClass: top
+objectClass: container
+cn: Sudoers

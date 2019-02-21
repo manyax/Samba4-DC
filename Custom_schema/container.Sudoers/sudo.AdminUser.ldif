@@ -1,0 +1,7 @@
+dn: cn=admin,cn=Sudoers,${DOMAINDN}
+objectClass: top
+objectClass: sudoRole
+cn: admin
+sudoUser: %admin
+sudoHost: ALL
+sudoCommand: ALL
